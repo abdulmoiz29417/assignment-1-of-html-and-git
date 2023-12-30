@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bano qabil ass 1</title>
+</head>
+<body style="background-color:whitesmoke;">
+    <h1>Audio</h1>
+    <center><audio controls> <source src="y2mate.com - BEST beat drop in 30 seconds.mp3" type></audio></center>
+    <br>
+    <br>
+    <center><p>*******************************************************</p></center>
+    <br>
+    <br>
+    <br>
+    <h1>Video</h1>
+   <center> <video controls height="800" width="600">
+        <source src="BEST beat drop in 30 seconds.mp4"  type="video/mp4" >
+      </video></center>
+    <br>
+    <br>
+    <center><p>*******************************************************</p></center>
+    <br>
+    <br>
+    <br>
+    <h1>Table</h1>
+    <table border="1" >
+        <tr>
+            <th>NO.</th>
+            <th>FULL NAME</th>
+            <th>POSITION</th>
+            <th>SALARY</th>
+            <th>TYPE</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>BILL GATES</td>
+            <td>FOUNDER OF MICROSOFT</td>
+            <td>$1000</td>
+            <td rowspan="4">COMPANY FOUNDER</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>STEVE JOBS</td>
+            <td>FOUNDER OF APPLE</td>
+            <td>$1200</td> 
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>LARRY PAGE</td>
+            <td>FOUNDER OF GOOGLE</td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>MARK ZUCKEBURG</td>
+            <td>FOUNDER OF FACEBOOOK</td>
+            <td>$1300</td>
+        </tr>
+        <tr>
+            <td colspan="3">TOTAL EXPENSE:</td>
+            <td>$4600</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <center><p>*******************************************************</p></center>
+    <br>
+    <br>
+    <br>
+<form>
+<h1>SIGN UP</h1>
+<p class="e1">It's quick and easy.</p>
+<hr>
+<div>
+            <div class="containername">
+                <input type="text" placeholder="First Name" class="input firstname">
+                <input type="text" placeholder="Sur Name" class="lasttname input">
+            </div>
+            <div>
+                <input type="email" placeholder="Mobile Number or Email Address" class="email">
+            </div>
+
+            <div class="password">
+                <input type="password" placeholder="New Password" class="email">
+            </div>
+        </div> 
+
+
+        <div class="containerdob">
+        <p>Date of birth</p>
+            <select name="dateofbirth" id="dateofbirth" class="date">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+            </select>
+            <select name="month" id="month" class="date">
+                <option value="January">January</option>
+                <option value="Fabruary">Fabruary</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <select name="year" id="year" class="date">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+            </select>
+        </div>
+        <div class="containerdob">
+            <p class="genderedit">Gender</p>
+            <div class="containerdob1">
+                <div>
+                    <label for="Male">
+                        Male
+                    </label>
+                    <input type="radio" value="Male" id="Male" name="gender">
+                </div>
+    
+                <div class="female">
+                    <label for="Female">
+                        Female
+                    </label>
+                    <input type="radio" value="Female" id="Female" name="gender">
+                </div>
+    
+                <div>
+                    <label for="custom">
+                        Custom
+                    </label>
+                    <input type="radio" value="custom" id="custom" name="gender">
+                </div>
+            </div>
+<p class="g1">
+    By clicking Sign Up, you agree to our <b>Terms, Data Policy </b>and <b>Cookie policy</b> . You may <br> receive SMS notifications from us and can opt out any time.
+</p>
+        </div>
+
+ 	
+                    <input class="button" type="Submit" name="Sign Up">
+</form>
+</body>
+</html>
